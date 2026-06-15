@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project data
+data/memory.db
+data/logs/
+
+# Voice cache
+*.mp3
+*.wav
+*.ogg
+
+# Config (keep template, ignore actual)
+config/config.yaml
+!config/config.example.yaml
+
+# Temp
+tmp/
+temp/
